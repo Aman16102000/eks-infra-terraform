@@ -19,7 +19,7 @@ terraform {
   }
   backend "s3" {
     bucket = "project-name-terraform-statefile"
-    key    = "infra/terraform.tfstate"
+    key    = "infrastructure/terraform.tfstate"
     region = "us-west-2"
   }
 
