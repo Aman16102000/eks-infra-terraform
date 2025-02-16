@@ -1,0 +1,55 @@
+# Local Terraform state
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Local module and plugin directories
+.terraform/
+
+# Sensitive environment variable files
+.env
+.env.*
+
+# Ignore logs and debug output
+*.log
+*.tfplan
+*.tfplan.*
+
+# Ignore backup files created by Terraform
+*.backup
+
+# Ignore zip archives
+*.zip
+
+id_rsa
+id_rsa.pub
+
+
+# Ignore archive files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.7z
+*.rar
+
+modules/argocd
+modules/karpenter
+modules/signoz
+modules/nlb
+modules/ingress-nginx
+modules/lets-encrypt
